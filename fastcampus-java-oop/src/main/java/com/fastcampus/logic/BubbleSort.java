@@ -4,7 +4,8 @@ package com.fastcampus.logic;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BubbleSort <T extends Comparable<T>> {
+public class BubbleSort <T extends Comparable<T>> implements  Sort<T> {
+    @Override
     public List<T> sort(List<T> list) {
         List<T> output = new ArrayList<>(list);
 
