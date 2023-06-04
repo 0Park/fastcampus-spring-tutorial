@@ -10,7 +10,7 @@ class MainTest {
     void main()
     {
         //given
-        String[] args = {"3","5","7"};
+        String[] args = {"3","1","2"};
 
         //when
         Main.main(args);
